@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "//Simple-ecart-main/static/css/main.58d1c8ed.css",
+    "main.js": "//Simple-ecart-main/static/js/main.e9efcb9f.js",
+    "static/js/787.51ffecdd.chunk.js": "//Simple-ecart-main/static/js/787.51ffecdd.chunk.js",
+    "static/media/profile-picture.png": "//Simple-ecart-main/static/media/profile-picture.2fda6558cd58b877e14f.png",
+    "index.html": "//Simple-ecart-main/index.html",
+    "main.58d1c8ed.css.map": "//Simple-ecart-main/static/css/main.58d1c8ed.css.map",
+    "main.e9efcb9f.js.map": "//Simple-ecart-main/static/js/main.e9efcb9f.js.map",
+    "787.51ffecdd.chunk.js.map": "//Simple-ecart-main/static/js/787.51ffecdd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58d1c8ed.css",
+    "static/js/main.e9efcb9f.js"
+  ]
+}
