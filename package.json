@@ -1,5 +1,6 @@
 {
   "name": "simple-ecart",
+  "homepage": "https://renan-eng.github.io/Simple-ecart-main/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,6 +9,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.0",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.2.0",
@@ -15,12 +17,15 @@
     "react-icons": "^4.4.0",
     "react-lightbox-component": "^1.2.1",
     "react-phone-input-2": "^2.15.1",
+    "react-router-dom": "^6.6.0",
     "react-scripts": "5.0.1",
     "react-use-cart": "^1.13.0",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

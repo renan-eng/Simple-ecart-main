@@ -6,16 +6,19 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { ThemeProvider } from './GlobalComponents/ThemeProvider';
 import { CartProvider } from 'react-use-cart';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 
 render(
   <React.StrictMode>
-    <ThemeProvider>
-      <CartProvider>
-        <App />
-      </CartProvider>
-    </ThemeProvider>
+    <HashRouter>
+      <ThemeProvider>
+        <CartProvider>
+          <App />
+        </CartProvider>
+      </ThemeProvider>
+    </HashRouter>
   </React.StrictMode>
-, document.getElementById('root'));
+  , document.getElementById('root'));
 
 
 // If you want to start measuring performance in your app, pass a function
